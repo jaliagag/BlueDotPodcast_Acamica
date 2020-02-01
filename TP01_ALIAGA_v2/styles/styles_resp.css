@@ -1,0 +1,220 @@
+
+@media screen and (max-width: 720px) {
+	
+    body {
+		margin: 0;
+		display: block;
+		max-width: 100%;
+	}
+
+	button {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 18px;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+        background-color: #00F3BB;
+		width: 100%;
+		padding-left: 2,5%;
+        height: 56px;
+        padding: 0; 
+        border: none;
+	}
+	
+	#btn01 {
+		z-index: 2;
+	}
+
+	.siete_button {
+		font-family: 'IBM Plex Mono', monospace;
+        font-size: 18px;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+        background-color: #00F3BB;
+        width: 100%;
+        height: 56px;
+        padding: 0; 
+        border: none;
+	}
+
+	.azul_bg {
+		position: absolute;
+		width: 100%;
+		max-width: 1240px;
+		height: 2000px;
+		background-image: #0000FF;
+		transform: skewY(-6deg);
+		transform-origin: top left;
+		z-index: -1;
+	}
+
+	section {
+		max-width: none;
+	}
+
+	.imagenesbloque > img {
+		width: 95%;
+	}
+
+	.title_01 {
+		margin-bottom: 10%;
+	}
+
+	.title_02 {
+		z-index: 1;
+	}
+
+	.title_2 {
+		width: 95%;
+	}
+
+	.grande {
+		display: block;
+	}
+
+	iframe {
+		width: 95%;
+		max-width: 320px;
+		z-index: 1;
+	}
+
+	#iframbk {
+		display: block;
+		grid-column-start: 1;
+		grid-row-start: 3;
+		z-index: -3;
+		background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+		transform: skewy(-5deg);
+		width: 1440px;
+		height: 1203.5px;
+		max-width: 1640px;
+		margin-top: -1222px;
+	}
+
+	#nosotros {
+		width: 95%;
+		z-index: 1;
+	}
+
+	.siete {
+		margin-top: -95%;
+		margin-bottom: 25%;
+	}
+
+	.ocho {
+		display: block;
+		width: 95%;
+		margin-top: 150px;
+	}
+
+	.icons {
+		display: flex;
+	}
+
+	.bckgrnd_abajo {
+		margin-top: 700px;
+		width: 100%;
+	}
+
+	.cuatroimg {
+		width: 95%;
+		margin-left: 10%;
+	}
+
+	.bckgrnd_abajo::before {
+		
+		width: 100%;
+	}
+
+	.seis {
+		padding-bottom: 100px;
+	}
+
+	.siete {
+		display: block;
+	}
+
+	.barra {
+		max-width: 100%;
+
+	}
+
+	#menu-toggle {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	#menu-toggle:checked {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	/*#############################################*/
+	.nav-icon {
+	  margin: 1em;
+	  width: 40px;
+	}
+	
+	.nav-icon:after, 
+	.nav-icon:before, 
+	.nav-icon div {
+	  background-color: black;
+	  border-radius: 3px;
+	  content: '';
+	  display: block;
+	  height: 5px;
+	  margin: 7px 0;
+	  transition: all .2s ease-in-out;
+	}
+	
+	.nav-icon:hover:before {
+	  transform: translateY(12px) rotate(45deg);
+	}
+	
+	.nav-icon:hover:after {
+	  transform: translateY(-12px) rotate(-45deg);
+	}
+	
+	.nav-icon:hover div {
+	  transform: scale(0);
+	}
+
+	
+	/*#############################################*/
+
+	label {
+	  cursor: pointer;
+	}
+	#menu-toggle {
+	  display: none;
+	}
+	#menu {
+	  display: none;
+	  text-align: center;
+	  width: 100%;
+	  background: #0000EC 100%;
+	  padding:10px 0;
+	}
+
+	#menu li {
+		list-style-type: none;
+		float: none;
+		padding-left: 0px;
+	}
+	
+	#menu li a {
+		color: white;
+		padding: 10px 0;
+		display: block;
+	}
+	#menu-toggle:checked + #menu {
+		position: absolute;
+		display: block;
+	  	margin-top: 53px;
+	}
+	
+}

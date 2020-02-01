@@ -1,0 +1,249 @@
+
+html {
+    margin: auto;
+    max-width: 1440px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 80px 369px 0.01px 1696px 900px 526px 0.01px 518px 80px;
+    
+}
+
+section {
+    grid-column-start: 2;
+    max-width: 1240px;
+    min-width: 320px;
+}
+
+.cinco {
+    grid-row-start: 5;
+}
+
+.seis {
+    grid-row-start: 6;
+}
+
+.siete {
+    grid-row-start: 7;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bk {
+    display: none;
+}
+
+.menu > .titles >  a {
+    padding-left: 48px;
+}
+
+.grande {
+    grid-row-start: 4;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.atras {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    z-index: -1;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewy(-5deg);
+    width: 1440px;
+    height: 1042.6px;
+    max-width: 1640px;
+}
+
+.izq {
+    grid-column-start: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe {
+    margin: 12px;
+    width: 584px;
+    height: 232px;
+    border: 0px;
+    background-color: transparent;
+}
+
+#iframbk {
+    display: none;
+}
+
+.der {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abaizq {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.abader {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.asdf {
+    color: white;
+    padding: 0 0 0 14.4%;
+    margin-right: auto;
+}
+
+/*
+######################################################
+*/
+
+.cinco {
+    grid-column-start: 1;
+    grid-column: 1 / span 3;
+    max-width: 1440px;
+}
+
+.text_cinc {
+    padding: 10.5% 0 0 14.4%;
+}
+
+.imagenesbloque {
+    display: inline-block;
+}
+
+.imagenesbloque > img {
+    max-width: 480px;
+    max-height: 364px;
+    min-width: 320px;
+    min-height: 243px;
+    float: left;
+}
+
+.cuatroimg {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.item{
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+/*
+.seis {
+    display: grid;
+    grid-template-rows: 100px auto 60px auto;
+    grid-template-columns: 100px auto 100px;
+}
+
+.text_seis {
+    grid-column-start: 2;
+}
+
+.cuatroimg {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatroimg > div {
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.text_div_cuatro {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.text_div_cuatro > div {
+    width: 30%;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 0px 50px 0px;
+}
+*/
+.siete {
+    grid-row-start: 8;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.siete_button {
+    display: flex;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+.siete_button > button {
+    width: 345px;
+    height: 56px;
+    padding: 0;
+    border: none;
+}
+
+.ocho {
+    grid-row-start: 9;
+}
+
+.bckgrnd_abajo {
+    grid-column-start: 1;
+    grid-row-start: 8;
+    z-index: -10;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: 1440px;
+    height: 518px;
+    max-width: 1640px;
+}
+
+.bckgrnd_abajo::before {
+    position: absolute;
+    content: "";
+    grid-column-start: 1;
+    grid-row-start: 8;
+    width: 1440px;
+    max-width: 1640px;
+    height: 418px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform-origin: top left;
+    transform: skewY(-3deg);
+    z-index: -100;
+}
+
+.space_bet_icons {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
